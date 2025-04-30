@@ -35,7 +35,7 @@ nav ul {
 }
 
 nav ul a {
-    color: black;
+    color: #171D3A;
     margin-left: 2%;
 }
 
@@ -66,7 +66,7 @@ overflow: hidden;
 }
 
 .image-container {
-    background-color: #D4EEFF; /* Blue background */
+    background-color: #D4EEFF; 
     padding: 10px;
     padding-top: 80px;
     padding-bottom: 50px;
@@ -74,7 +74,6 @@ overflow: hidden;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    /* max-width: 1200px; */
     margin: 0 auto;
     margin-top: 51.45rem;
     min-width: 92rem;
@@ -222,6 +221,24 @@ overflow: hidden;
     color: #171D3A;;
   }
 
+  .drawingContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.drawingContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  aspect-ratio: 0.6;
+}
+
   .column4 {
     float: left;
     width: 19%;
@@ -238,10 +255,19 @@ overflow: hidden;
 
   .column5 {
     float: left;
-    width: 15%;
+    width: 19%;
     padding: 5px;
     margin-left: 55px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .column5 img {
+    width: 300px;
+    height: 400px;
+            border-radius: 8px;
+            object-fit: cover;
   }
   
   .row5::after {
@@ -258,11 +284,6 @@ overflow: hidden;
 }
 
 .video {
-    /* margin-left: 55px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 100%;
-    float: left; */
     float: left;
     margin-left: 55px;
     margin-top: 40px;
@@ -288,6 +309,9 @@ overflow: hidden;
     color: #171D3A;;
   }
 
+  .aboutRow {
+    display: flex;
+  }
   .me {
     font-family: Arimo;
     font-weight: 100;
@@ -314,7 +338,6 @@ footer {
     font-family: Oswald;
     font-weight: 400;
     font-style: normal;
-    /* margin-top: 40px; */
     font-size: 1.3rem;
     font-weight: 300;
     color: #171D3A;
