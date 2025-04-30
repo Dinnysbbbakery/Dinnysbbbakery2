@@ -318,6 +318,7 @@ overflow: hidden;
     font-style: normal;
     font-size: 1.5rem;
     margin-left: 55px;
+    margin-right: 55px;
     color: #171D3A;;
   }
 
@@ -327,6 +328,93 @@ overflow: hidden;
     margin-right: 55px;
     height: 600px;
   }
+
+  .area {
+      font-family: Oswald;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2rem;
+      margin-top: 30px;
+      color: #171D3A;
+  }
+
+  .list {
+    font-family: Arimo;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-right: 55px;
+    margin-top: 10px;
+    color: #171D3A;
+    /* word-spacing: 5px; */
+  }
+  
+  .email {
+    font-family: Arimo;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    margin-right: 55px;
+    margin-top: px;
+    color: #171D3A;
+  }
+
+  .mail {
+    font-family: Oswald;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #171D3A;
+  }
+
+  .phonenum {
+    font-family: Arimo;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    margin-right: 55px;
+    margin-top: px;
+    color: #171D3A;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .phone {
+    font-family: Oswald;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #171D3A;
+      text-align: center;
+      text-align: justify;
+  }
+
+  .contact-container {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    color: #171D3A;
+    max-width: 600px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  
+  .contact-block h2 {
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  
+  .contact-block p {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+  }
+  
 
 footer {
     background-color: #D4EEFF;
