@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poetsen+One&display=swap" rel="stylesheet">
+
+<!-- This is a craft website showing how to make a paper windmill for childerns. I want to 
+let this website to be a combination of craft book and craft video, so it will contain
+a video and written steps of the paper windmill. Alongiside of this there will also be 
+some buttons to control the video such as play, pause, mute and unmute etc. There will be a
+image for each step so the user can click on it to quickly jump to the desire step in the 
+video.  -->
+
+  </head>
+  <body>
+    <div class="title">
+        <h1>Berry Bunch Family</h1>
+    </div>
+
+<div class="name">
+    <h2>Handheld Paper Windmill</h2>
+</div>
+
+ <div class="container">
+    <div class ="video">
+        <video width ="800" controls id="my-video">
+            <source
+            src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/berry-bunch_handheld-windmill-fan.mp4"
+            type="video/mp4"
+            >
+        </video>
+    </div>
+
+    <div class="material">
+            <h1>Materials List</h1>
+            <ul>
+                <li>One sheet of foam</li>
+                <li>Scissors</li>
+                <li>Glue Dots</li>
+                <li>Ruler</li>
+                <li>Pen</li>
+                <li>Straw</li>
+                <li>Pipe Cleaner</li>
+            </ul>
+    </div>
+ </div>
+
+<div class="container2">
+    <div class="button">
+        <button id="play">
+            <img 
+            id="play-img"
+            src="https://img.icons8.com/ios-glyphs/30/play--v2.png" 
+            alt="play button">
+        </button>
+    </div>
+    <div class="button2">
+        <button id="mute">
+            <img 
+            id="mute-img"
+            src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png" 
+            alt="mute button">
+        </button>
+    </div>
+    <div class="button3">
+        <button id="volumedown">
+            <img 
+            id="down-img"
+            src="https://img.icons8.com/ios-glyphs/30/low-volume.png" 
+            alt="volumn down">
+        </button>
+    </div>
+    <div class="button4">
+        <button id="volumeup">
+            <img 
+            id="up-img"
+            src="https://img.icons8.com/ios-glyphs/30/high-volume--v1.png" 
+            alt="volumn up">
+        </button>
+    </div>
+    <div class="button5">
+            <div class="progress-bar">
+            <span id="progress-bar-fill"></span>
+            </div>
+    </div>
+
+    <div class="button6">
+        <button id="fullscreen">
+            <img 
+            id="fullscreen-img"
+            src="https://img.icons8.com/ios-glyphs/30/full-screen--v1.png" 
+            alt="fullscreen">
+        </button>
+</div>
+</div>
+
+ <div class="container3">
+    <div class="step1">
+        <button id="step1">
+            <img src="https://i.ibb.co/cDyZQrM/Screenshot-2024-05-27-at-12-33-55-PM.png" alt="">
+            Step1
+        </button>
+        <p>Cut the foam sheet into a 12.5cm square. Fold the foam in half into a 
+            triangle in both directions to make an ‘X’ then punch a hole in the 
+            cross-section. 
+        </p>
+    </div>
+    <div class="step2">
+        <button id="step2">
+            <img src="https://i.ibb.co/cbJnjYd/Screenshot-2024-05-27-at-12-36-15-PM.png" alt="">
+            Step2</button>
+        <p>Cut 4 more cuts halfway along the fold lines then punch 4 more holes 
+            1 on every angle of the square. Apply tape around the 4 holes then match 
+            them to the centre hole.</p>
+    </div>
+    <div class="step3">
+        <button id="step3">
+            <img src="https://i.ibb.co/2gYswzP/Screenshot-2024-05-27-at-12-37-11-PM.png" alt="">
+            Step3</button>
+        <p>Cut 2 small foam rings.</p>
+    </div>
+    <div class="step4">
+        <button id="step4">
+            <img src="https://i.ibb.co/BgNBy6p/Screenshot-2024-05-27-at-12-37-49-PM.png" alt="">
+            Step4</button>
+        <p>Wrap the pipe cleaner around one end of the straw, leaving 5cm hanging. 
+            Slide the foam ring, windmill and foam ring one by one onto the pipe 
+            cleaner in order, push them down. Cut the excess pipe cleaner off and
+            wrap the rest like a snail to secure everything.</p>
+    </div>
+ </div>
+
+<div class="footer">
+  <footer>
+    <p>&copy; 2024 Media Player Website. All rights reserved.</p>
+    <a href="https://icons8.com/icon/TlSnjmNzYgKT/play">Play</a> icon by
+    <a href="https://icons8.com">Icons8</a>
+    <a href="https://icons8.com/icon/pSwquXkxwLD8/pause">Pause</a> icon by
+    <a href="https://icons8.com">Icons8</a>
+    <a href="https://icons8.com/icon/91634/low-volume">Volume Down</a> icon by
+    <a href="https://icons8.com">Icons8</a>
+    <a href="https://icons8.com/icon/59734/audio">Volume Up</a> icon by
+    <a href="https://icons8.com">Icons8</a>
+    <a href="https://icons8.com/icon/69155/full-screen">full-screen</a> icon by
+    <a href="https://icons8.com">Icons8</a>
+  </footer>  
+</div>
+  </body>
+</html>

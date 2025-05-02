@@ -1,0 +1,144 @@
+/* The colour choice is based on the colour of berriess with a light
+cream colour for highlights. A  cute round font of choosed for the title of
+the website as the craft video is aiming towards childern. The website
+contains a material list and written steps around the video so the user
+can refer to them while watching the video. The main information are rather
+top, left or right aligned to show they are under the same catgeory. Different
+pieces of information are grouped and orgainsed with padding spaces. */
+body{
+    background-color: rgb(249, 242, 234);
+}
+.title {
+    background-color: #730217;
+    width:100%;
+    height:60px;
+    position: fixed;
+    top:0;
+    padding-top: 17px;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    color: bisque;
+}
+
+.name {
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 100px;
+    color: #344973;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+}
+       
+.material h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.8rem;
+    padding-left: 53px;
+    color: #730217;
+}
+
+.material ul{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-family: "Nunito", sans-serif;
+    line-height: 40px;
+    font-size: 1.2rem;
+}       
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 84.5%;
+    padding-top: 15px;
+    gap: 0.5rem;
+}
+
+.progress-bar {
+    width: 590px;
+    height: 15px;
+    background-color: #344973;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+
+  .progress-bar span {
+    display: block;
+    height: 400px;
+    background-color: #6f8ac1;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1035px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    gap: 2.1rem;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.step1{
+    font-family: "Poetsen One", sans-serif; 
+    width: 1000px;
+}
+.step1 p{
+    font-family: "Nunito", sans-serif;
+    padding-top: 15px;
+}
+
+.step2{
+    font-family: "Poetsen One", sans-serif; 
+    width: 1000px;
+}
+
+.step2 p{
+    font-family: "Nunito", sans-serif;
+    padding-top: 15px;
+}
+
+.step3{
+    font-family: "Poetsen One", sans-serif; 
+    width: 1000px;
+}
+
+.step3 p{
+    font-family: "Nunito", sans-serif;
+    padding-top: 15px;
+}
+
+.step4{
+    font-family: "Poetsen One", sans-serif;
+    width: 1000px; 
+}
+
+.step4 p{
+    font-family: "Nunito", sans-serif;
+    padding-top: 15px;
+}
+
+.footer{
+    background-color: #730217;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    bottom: 0;
+    font-family: "Nunito", sans-serif;
+    color: bisque;
+    padding-top: 8px;
+}
+
+
+
+
+

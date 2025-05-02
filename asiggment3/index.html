@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Seymour+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <!-- The website Area None is a storytelling puzzle game based on the idea of the multiverse. The game is an individual 
+    universe that contains many small worlds (with different levels), and each level tells a unique story to the user. 
+    The user will use puzzles to create various objects in the story to explore the world. 
+
+My goal for this website is to create a game that catches the users’ interest in the long term, it is easy, time-killing 
+and engaging. Super Jigsaw Puzzle: Generations is the base of my idea. This game is an ordinary online puzzle game that 
+provides different puzzles for the users to choose from, once the user finishes the puzzle the puzzle lines disappear and 
+turn into an image. There are no other elements in this game, which might cause a quick novelty loss for users. The visual 
+style of Super Jigsaw is not as trendy, it is difficult to attract young adults’ attention.
+
+Meanwhile, the game Woodo has jumped out of 2-dimensional space and made their puzzle 3-dimensional to follow the current 
+trend. The colour scheme is warm and peaceful, allowing the user to relax during the busy lifestyle. Unlike the Super Jigsaw, 
+Woodo contains more storytelling, and the art style remains consistent throughout the game. The consistency in visual style 
+makes the game more visually appealing.
+
+The game’s visual style is inspired by the game Good Pizza Great Pizza, the hand-drawn style and warm colour pallet are visually 
+relaxing to the user. It gives the user a sense of peacefulness. The hand-drawn style mainly shows the broken outlines but considering 
+other elements in the game puzzle pieces will be displayed with normal outlines but maintaining the warm colour scheme. 
+
+The website contains a popup window before the games start, the window tells the user the story, aim and a start button 
+to make sure the user reads the story before starting the game. 
+
+The Seymour One font is used for headings, the uneven line width adds a sense of playfulness to the game.
+During the production of the website, the drag-and-drop action was the most difficult one to write as images are used instead 
+of shapes. Many tries and errors happened during that stage. Merging the three puzzles was a challenge too. At first, I tried 
+to start the merge action once the user had completed the puzzle, but it didn’t work. In the end, l chooses to create a finish 
+button to start the merge action. The merge location was a problem too, l tried many methods, but the elements are still off the 
+place a bit in the y-axis, and I was struggling with it. 
+
+The website only shows one of the levels of the game. The game as a whole contains many levels like this with a unique story, 
+the level of difficulty will increase as the story goes towards the end. As each story is individual there will be no worries for 
+the game to have an end, so the player can keep playing but still have novelty.  Instead of the written story, an anime or a short 
+video clip could be added to tell the story too. The style for the game can be improved in the future, a light-coloured illustration 
+can be used as the background instead of a solid colour to add more texture to the visual. The layout of the puzzle can be changed at 
+each level according to the story. The location of the elements can be more accurate for a better visual experience. 
+
+goodpizzagreatpizza.com. (n.d.). Good Pizza, Great Pizza. [online] Available at: https://goodpizzagreatpizza.com/.store.steampowered.com. (n.d.). 
+Super Jigsaw Puzzle: Generations on Steam. [online] Available at: https://store.steampowered.com/app/1036950/Super_Jigsaw_Puzzle_Generations/ [Accessed 15 Jun. 2024].store.steampowered.com. (n.d.). 
+Woodo on Steam. [online] Available at: https://store.steampowered.com/app/2572040/Woodo/ [Accessed 15 Jun. 2024].
+ -->
+  <body>
+    <div class="rules">
+        <h1>Welcome!</h1>
+        <p>
+            After the nuclear disaster the world collapsed. Nuclear energy infused
+            into every corner of the human body, turning human into monsters. You 
+            are the only few human beings left on this planet. Assemble a weapon for 
+            yourself to defeat against the monsters. 
+        </p>
+        <button class="ready">I AM READY</button>
+    </div>
+   <div class="title">Area None</div>
+   <div class="box">
+   <div class="left">
+    <div>
+        <img src="m.png" alt="" class="item1" draggable="true">
+    </div>
+    <img src="Untitled_Artwork 26.png" alt="" id="b">
+    <div class="item2" draggable="ture">
+        <img src="start.png" alt="" id="start-gun">
+    </div>
+    <img src="Untitled_Artwork 31.png" alt="" id="j">
+    <img src="Untitled_Artwork 20.png" alt="" id="a">
+    <div class="item3" draggable="true">
+        <img src="ds.png" alt="">
+    </div>
+    <img src="Untitled_Artwork 24.png" alt="" id="c">
+    <img src="Untitled_Artwork 28.png" alt="" id="d">
+   </div>
+
+    <div class="centre">
+    <div >
+        <img src="Untitled_Artwork 17.png" alt="" id="drop-start-gun">
+    </div>
+    <div class="position2">
+        <img src="Untitled_Artwork 15.png" alt="" id="drop-middle-gun">
+    </div>
+    <div class="position3">
+        <img src="Untitled_Artwork 16.png" alt="" id="drop-end-gun">
+    </div>
+
+    </div>
+    <div class="right">
+        <img src="Untitled_Artwork 21.png" alt="" id="e">
+        <img src="Untitled_Artwork 27.png" alt="" id="f">
+        <div class="item4" draggable="true">
+        <img src="d.png" alt="">
+        </div>
+        <div class="item5" draggable="true">
+        <img src="middle.png" alt="" id="middle-gun">
+        </div>
+        <img src="Untitled_Artwork 22.png" alt="" id="g">
+        <div class="item6" draggable="true">
+        <img src="end.png" alt="" id="end-gun">
+        </div>
+        <img src="Untitled_Artwork 25.png" alt="" id="h">
+        <img src="Untitled_Artwork 23.png" alt="" id="i">
+    </div>
+</div> 
+<button class="finish">FINISH</button>
+  </body>
+</html>
